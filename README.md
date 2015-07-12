@@ -10,17 +10,10 @@ HIPAA Compliance for Meteor Apps.  Meta package containing audit log, user accou
 
 This is a meta package, and includes the following sub-packages:  
 
-````bash
-# for private PHI
 [accounts-base](https://atmospherejs.com/meteor/accounts-base)
 [accounts-password](https://atmospherejs.com/meteor/accounts-password)  
-
-# for auditing PHI access
-clinical:hipaa-audit-log  
-
-# for secure transmission of PHI
+[clinical:hipaa-audit-log](http://github.com/awatson1978/clinical-hipaa-audit-log)    
 [force-ssl](https://atmospherejs.com/meteor/force-ssl)
-````
 
 We're currently in the process of adding at-rest disk encryption for secure PHI at rest.
 
