@@ -2,10 +2,14 @@
 
 HIPAA Compliance for Meteor Apps.  Meta package containing audit log, user accounts, and ssl security.
 
+
+==================================
 #### Installation  
 
 ``meteor add clinical:hipaa``
 
+
+==================================
 #### Packages
 
 This is a meta package, and includes the following sub-packages:  
@@ -18,6 +22,7 @@ This is a meta package, and includes the following sub-packages:
 We're currently in the process of adding at-rest disk encryption for secure PHI at rest.
 
 
+==================================
 #### Policy Index
 
 * [Introduction](policyTemplates/introduction.md)
@@ -47,6 +52,7 @@ We're currently in the process of adding at-rest disk encryption for secure PHI 
 * [HIPAA Mappings to Catalyze Controls](policyTemplates/hipaa_mapping_to_catalyze_controls.md)
 
 
+==================================
 #### API
 
 ````html
@@ -77,3 +83,8 @@ We're currently in the process of adding at-rest disk encryption for secure PHI 
 ````
 
 Of course, any of these templates can be included in a route using Iron Router or Flux Router.  
+
+
+
+==================================
+#### Licensing  
