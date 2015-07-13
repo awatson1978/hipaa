@@ -15,7 +15,7 @@ HIPAA Compliance for Meteor Apps.  Meta package containing audit log, user accou
 This is a meta package, and includes the following sub-packages:  
 
 [accounts-base](https://atmospherejs.com/meteor/accounts-base)  
-[accounts-password](https://atmospherejs.com/meteor/accounts-password)
+[accounts-password](https://atmospherejs.com/meteor/accounts-password)  
 [clinical:hipaa-audit-log](http://github.com/awatson1978/clinical-hipaa-audit-log)  
 [force-ssl](https://atmospherejs.com/meteor/force-ssl)  
 
