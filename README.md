@@ -37,7 +37,7 @@ We're currently in the process of adding at-rest disk encryption for secure PHI 
 ####  HIPAA Compliant Scale Out Using Meteor
 
 Phase 1 - Development (1 server)  
-``sudo meteor``  
+``meteor add clinical:hipaa``  
 
 Phase 2 - Platform as a Service (2 to 10 servers)  
   [modulus.io - Node/Meteor App Hosting on AWS](https://modulus.io/)
