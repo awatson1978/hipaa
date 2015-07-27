@@ -1,6 +1,6 @@
 Package.describe({
   name: "clinical:hipaa",
-  version: "0.2.1",
+  version: "0.2.2",
   // Brief, one-line summary of the package.
   summary: "HIPAA Compliance for Meteor Apps. Audit log, user accounts, and SSL security.",
   // URL to the Git repository containing the source code for this package.
@@ -19,7 +19,7 @@ Package.onUse( function (api) {
   api.use("accounts-password");
   api.use("force-ssl");
   api.use("clinical:hipaa-audit-log@1.2.3");
-  api.use("clinical:hipaa-routes");
+  api.use("clinical:hipaa-routes@0.1.0");
   //api.use("clinical:hipaa-policies-routes");
   api.use("perak:markdown@1.0.5");
 
