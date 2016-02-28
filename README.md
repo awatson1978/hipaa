@@ -64,17 +64,17 @@ Phase 1 - Development (1 server)
 ``sudo meteor``  
 
 Phase 2 - Platform as a Service (2 to 10 servers)  
-  [modulus.io - Node/Meteor App Hosting on AWS](https://modulus.io/)
+  [modulus.io - Node/Meteor App Hosting on AWS](https://modulus.io/)  
   [compose.io - Mongo Hosting on AWS](http://www.mongohq.com/)  
 
 
-Phase 3 - Infrastructure as a Service (11+ servers)  
+Phase 3 - Infrastructure as a Service (11+ servers)    
   [Amazon Web Services](http://aws.amazon.com/)  
-  [Deploying a Meteor App on Elastic Beanstalk](https://groups.google.com/forum/#!topic/meteor-talk/VxMQzpVFpME)  
+  [Deploying a Meteor App on Elastic Beanstalk](https://groups.google.com/forum/#!topic/meteor-talk/VxMQzpVFpME)   
 
-Phase 4 - Federal HIPAA
+Phase 4 - Federal HIPAA  
   [Amazon Web Services - HIPAA/Federal Tier](http://aws.amazon.com/compliance/)  
-  [Amazon Web Services - HIPAA Whitepaper](https://aws.amazon.com/about-aws/whats-new/2009/04/06/whitepaper-hipaa/)
+  [Amazon Web Services - HIPAA Whitepaper](https://aws.amazon.com/about-aws/whats-new/2009/04/06/whitepaper-hipaa/)  
 
 
 ==================================
@@ -140,25 +140,6 @@ console.log(decrypted.toString(CryptoJS.enc.Utf8));
 
 [Modulus.io](http://modulus.io/)  
 [Catalyze.io](http://catalyze.io)  
-
-================================================
-####  HIPAA Compliant Scale Out Using Meteor
-
-Phase 1 - Development (1 server)  
-``meteor add clinical:hipaa``  
-
-Phase 2 - Platform as a Service (2 to 10 servers)  
-  [modulus.io - Node/Meteor App Hosting on AWS](https://modulus.io/)
-  [compose.io - Mongo Hosting on AWS](http://www.mongohq.com/)  
-
-
-Phase 3 - Infrastructure as a Service (11+ servers)  
-  [Amazon Web Services](http://aws.amazon.com/)  
-  [Deploying a Meteor App on Elastic Beanstalk](https://groups.google.com/forum/#!topic/meteor-talk/VxMQzpVFpME)  
-
-Phase 4 - Federal HIPAA
-  [Amazon Web Services - HIPAA/Federal Tier](http://aws.amazon.com/compliance/)  
-  [Amazon Web Services - HIPAA Whitepaper](https://aws.amazon.com/about-aws/whats-new/2009/04/06/whitepaper-hipaa/)
 
 ==================================
 #### Licensing  
